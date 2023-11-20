@@ -33,6 +33,6 @@ public class AppTest
         int testResult = app.timesTwo(ourNum);
 
         //VERIFY
-        assertEquals(ourResult, app.timesTwo(ourNum));
+        assertEquals(ourResult, testResult);
     }
 }
